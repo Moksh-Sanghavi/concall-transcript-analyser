@@ -1,0 +1,19 @@
+# Core dependencies for concall_analyzer.py
+# Install with: pip install -r requirements.txt
+
+requests>=2.31.0       # HTTP client (used everywhere)
+pandas>=2.0.0          # DataFrame operations
+
+# PDF parsing (install at least one)
+pdfplumber>=0.10.0     # Recommended — handles multi-column PDFs well
+pypdf>=3.0.0           # Pure-Python fallback
+
+# Market data enrichment (used in fallback path when NSE CSV has no mcap)
+yfinance>=0.2.38
+
+# Optional: Screener.in unofficial wrapper (Option B fallback)
+# screener-python        # pip install screener-python  (community lib)
+
+# Optional: NSE data libraries (alternative universe sources)
+# nsetools               # pip install nsetools
+# jugaad-data            # pip install jugaad-data
