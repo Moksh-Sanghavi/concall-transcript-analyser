@@ -67,7 +67,7 @@ Ensure you have Python 3.9 or higher installed on your system.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YourUsername/concall-analyser.git](https://github.com/YourUsername/concall-analyser.git)
+git clone https://github.com/Moksh-Sanghavi/concall-transcript-analyser.git
 cd concall-analyser
 ```
 
